@@ -1,0 +1,14 @@
+npm i --save-dev typescript @types/express @types/node
+
+npx tsc --init
+
+
+ npx tsc
+
+ node build/app.js
+
+
+ // "start":"npx tsc && node dist/index.js",
+
+
+ npm add concurrently
