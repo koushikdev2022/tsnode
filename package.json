@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:ts": "tsc -w",
-    "start:js": "nodemon dist/index.js",
+    "start:js": "nodemon build/index.js",
     "start": "concurrently npm:start:*",
     "sequelize": "ts-node sequelize-cli.ts",
     "db:migrate": "npm run sequelize",
